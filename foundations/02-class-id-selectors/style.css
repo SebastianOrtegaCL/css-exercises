@@ -1,0 +1,35 @@
+
+/* Tenemos cinco elementos, los elementos impares 
+    deben tener un fondo rojo claro / rosa y una lista de fuentes
+    que contiene 'Verdana' como primera opcion, y 'sans-serif'
+     como alternativa*/
+
+.odd {
+    background-color: rgb(233, 157, 157);
+    font-size: 15px;
+    font-family: 'Verdana', sans-serif;
+}    
+
+/* El segundo elemento debe contener texto azul
+    y un tamaño de fuente de 36px*/
+
+.two {
+    color: blue;
+    font-size: 36px;
+}
+
+/* El tercer elemento ademas de los estilos para todos 
+los impares debe tener un tamaño de fuente de 24px*/
+
+.ft-sz {
+    font-size: 24px;
+}
+
+/* El cuarto elemento debe tener un fondo verde claro, y
+un tamaño de fuente de 24px y negrita*/ 
+
+.four {
+    background-color: rgb(179, 255, 179);
+    font-size: 24px;
+    font-weight: bold;
+}
