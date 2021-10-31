@@ -1,0 +1,24 @@
+/* El primer elemento tendra un fondo negro,
+y texto blanco*/ 
+
+.first {
+    background-color: black;
+    color: white;
+}
+
+/* El segundo elemento tendra un fondo amarillo*/
+
+.second {
+    background-color: yellow;
+}
+
+/*  Ambos elementos tendran 
+    una fuente de 28px, y
+    una lista de fuentes que contienen
+    'Helvetica' y 'Times New Roman', con 
+    'sans-serif' como alternativa*/
+
+.first, .second {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
