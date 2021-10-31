@@ -1,0 +1,21 @@
+/* Haga que cada elemento con las clases
+    'avatar' y 'proportioned' sea de 300px de ancho 
+    luego darle una altura para que conserve sus 
+    proporciones cuadradas originales (¡No codifique
+    en un valor de pixel para la altura)*/ 
+
+.avatar, .proportioned {
+    width: 300px;
+    height: auto;
+}
+
+/*  Haga el elemento con las clases 'avatar' y 
+'distorted' de 200px de ancho luego haga que que su
+altura sea dos veces mayor que su ancho (aqui debe 
+codificar en un valor de pixel)*/
+
+.avatar, .distorted {
+    width: 200px;
+    height: 400px;
+}
+
